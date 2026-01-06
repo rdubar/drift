@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drift</title>
+  <meta name="description" content="A pause between impulse and action.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app">
+
+    <!-- State: Input -->
+    <section id="state-input" class="state">
+      <h1>Drift</h1>
+      <p class="subtitle">What do you want to do?</p>
+      <input
+        type="text"
+        id="intention-input"
+        placeholder="e.g., check social media"
+        autocomplete="off"
+      >
+      <div class="duration-options">
+        <button data-duration="5">5 min</button>
+        <button data-duration="10">10 min</button>
+        <button data-duration="15">15 min</button>
+        <button data-duration="30">30 min</button>
+      </div>
+    </section>
+
+    <!-- State: Waiting -->
+    <section id="state-waiting" class="state hidden">
+      <p class="waiting-label">Wait.</p>
+      <p id="time-remaining" class="time-display"></p>
+      <button id="cancel-btn" class="text-btn">Cancel</button>
+    </section>
+
+    <!-- State: Decision -->
+    <section id="state-decision" class="state hidden">
+      <p class="decision-prompt">Do you still want to</p>
+      <p id="intention-display" class="intention"></p>
+      <div class="decision-buttons">
+        <button id="yes-btn">Yes</button>
+        <button id="no-btn">No</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="mailto:drift@rosh.cloud">Contact</a>
+    <span class="sep">&middot;</span>
+    <span>&copy; Rosh Studio, 2026</span>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
