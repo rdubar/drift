@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drift</title>
   <meta name="description" content="A pause between impulse and action.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,7 +13,8 @@
 
     <!-- State: Input -->
     <section id="state-input" class="state">
-      <h1>Drift</h1>
+      <h1 class="logo">Drift</h1>
+      <p class="tagline" id="tagline"></p>
       <p class="subtitle">What do you want to do?</p>
       <input
         type="text"
@@ -48,16 +50,26 @@
 
   </main>
 
+  <!-- Contact Form Modal -->
+  <div id="contact-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn">&times;</button>
+      <h2>Get in touch</h2>
+      <form id="contact-form">
+        <input type="email" id="contact-email" name="email" placeholder="Your email" required>
+        <textarea id="contact-message" name="message" placeholder="Your message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-status" class="form-status"></p>
+    </div>
+  </div>
+
   <footer>
     <a href="/manifesto">Manifesto</a>
     <span class="sep">&middot;</span>
-    <a href="https://ko-fi.com/rosh_studio">Support</a>
-    <span class="sep">&middot;</span>
-    <a href="mailto:drift@rosh.cloud">Contact</a>
+    <a href="#" id="contact-link">Contact</a>
     <span class="sep">&middot;</span>
     <span>Your data never leaves your device</span>
-    <span class="sep">&middot;</span>
-    <span>&copy; Rosh Studio, 2026</span>
   </footer>
 
   <script src="js/app.js"></script>

@@ -1,6 +1,17 @@
 (function () {
   'use strict';
 
+  // Taglines
+  const taglines = [
+    'disengage',
+    'the disengagement app',
+    'a pause between impulse and action',
+    'restore boredom',
+    'friction by design',
+    'slow down',
+    'wait for it'
+  ];
+
   // Elements
   const stateInput = document.getElementById('state-input');
   const stateWaiting = document.getElementById('state-waiting');
@@ -14,8 +25,21 @@
   const yesBtn = document.getElementById('yes-btn');
   const noBtn = document.getElementById('no-btn');
 
+  const taglineEl = document.getElementById('tagline');
+  const contactLink = document.getElementById('contact-link');
+  const contactModal = document.getElementById('contact-modal');
+  const closeModal = document.getElementById('close-modal');
+  const contactForm = document.getElementById('contact-form');
+  const formStatus = document.getElementById('form-status');
+
   // State
   let timerInterval = null;
+
+  // Set random tagline
+  function setRandomTagline() {
+    const randomIndex = Math.floor(Math.random() * taglines.length);
+    taglineEl.textContent = taglines[randomIndex];
+  }
 
   // Helpers
   function showState(state) {
@@ -159,8 +183,64 @@
   intentionInput.addEventListener('input', updateButtons);
   updateButtons();
 
+  // Contact modal handlers
+  contactLink.addEventListener('click', function (e) {
+    e.preventDefault();
+    contactModal.classList.remove('hidden');
+    formStatus.textContent = '';
+    formStatus.className = 'form-status';
+  });
+
+  closeModal.addEventListener('click', function () {
+    contactModal.classList.add('hidden');
+  });
+
+  contactModal.addEventListener('click', function (e) {
+    if (e.target === contactModal) {
+      contactModal.classList.add('hidden');
+    }
+  });
+
+  contactForm.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
+    const formData = new FormData(contactForm);
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    formStatus.textContent = '';
+    formStatus.className = 'form-status';
+
+    try {
+      const response = await fetch('https://formspree.io/f/mgovgopz', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        formStatus.textContent = 'Message sent. Thank you.';
+        formStatus.className = 'form-status success';
+        contactForm.reset();
+      } else {
+        throw new Error('Failed to send');
+      }
+    } catch (err) {
+      formStatus.textContent = 'Failed to send. Try again later.';
+      formStatus.className = 'form-status error';
+    }
+
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Send';
+  });
+
   // Restore session on load
   function init() {
+    setRandomTagline();
+
     const session = getSession();
 
     if (session && session.endTime > Date.now()) {
