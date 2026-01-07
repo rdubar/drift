@@ -184,10 +184,19 @@ input[type="text"]::placeholder {
 
 /* Footer */
 footer {
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   font-size: 0.8rem;
   color: var(--text-muted);
+}
+
+.footer-links {
+  margin-bottom: 0.75rem;
+}
+
+.footer-statements {
+  font-size: 0.75rem;
+  opacity: 0.8;
 }
 
 footer a {

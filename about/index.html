@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Drift</title>
+  <meta name="description" content="How Drift works: a pause between impulse and action.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    body {
+      display: block;
+    }
+    .about {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    .about h1 {
+      font-size: 1.75rem;
+      font-weight: 400;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    .about h2 {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+    .about h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 2.5rem 0 1rem;
+    }
+    .about p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    .about ol {
+      margin: 0 0 1rem 1.5rem;
+      color: var(--text);
+    }
+    .about li {
+      margin-bottom: 0.5rem;
+    }
+    .about hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+    .about code {
+      background: #e5e5e5;
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+    .about .code-block {
+      background: #e5e5e5;
+      padding: 1rem;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.85rem;
+      overflow-x: auto;
+      margin: 1rem 0;
+      word-break: break-all;
+    }
+    .about .share-text {
+      background: white;
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 4px;
+      font-style: italic;
+      margin: 1rem 0;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 2rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .back-link:hover {
+      color: var(--text);
+    }
+    .copy-btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: white;
+      color: var(--text);
+      cursor: pointer;
+    }
+    .copy-btn:hover {
+      border-color: var(--accent);
+    }
+    footer {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <article class="about">
+    <a href="/" class="back-link">&larr; Back to Drift</a>
+
+    <h1>About Drift</h1>
+    <h2>A pause between impulse and action</h2>
+
+    <hr>
+
+    <h3>How it works</h3>
+
+    <ol>
+      <li>You feel the urge to do something — check social media, open an app, buy something online</li>
+      <li>Instead of doing it immediately, you open Drift</li>
+      <li>You type what you want to do and choose how long to wait</li>
+      <li>You wait. That's the point. Just wait.</li>
+      <li>When the timer ends, you decide: do you still want to do it?</li>
+    </ol>
+
+    <p>Often, the impulse fades. Sometimes it doesn't, and that's fine too. Either way, you made a choice instead of reacting.</p>
+
+    <hr>
+
+    <h3>Why it helps</h3>
+
+    <p>The gap between impulse and action is where choice lives. Most apps eliminate that gap. Drift restores it.</p>
+
+    <p>This isn't about willpower or discipline. It's about giving yourself time to decide whether you actually want something, or just felt pulled toward it.</p>
+
+    <hr>
+
+    <h3>What Drift refuses</h3>
+
+    <p>No accounts. No tracking. No streaks. No achievements. No social features. No data leaves your device.</p>
+
+    <p>Drift doesn't want your attention. It wants to give it back.</p>
+
+    <hr>
+
+    <h3>Bookmarklet</h3>
+
+    <p>Drag this link to your bookmarks bar for a quick pause button:</p>
+
+    <p><a class="copy-btn" href="javascript:(function(){window.open('https://drift.blog','_blank')})();" style="text-decoration:none;">Pause with Drift</a></p>
+
+    <p style="font-size: 0.85rem; color: var(--text-muted);">Drag it to your bookmarks bar, or right-click and "Bookmark This Link"</p>
+
+    <hr>
+
+    <h3>Share</h3>
+
+    <p>If you want to tell someone about Drift:</p>
+
+    <div class="share-text" id="share-text">
+      Drift — an app designed to be used less.<br>
+      A pause between impulse and action.<br>
+      https://drift.blog
+    </div>
+
+    <button class="copy-btn" onclick="copyShare()">Copy to clipboard</button>
+
+    <hr>
+
+    <p>Read the <a href="/manifesto">manifesto</a> for the philosophy behind all this.</p>
+
+  </article>
+
+  <footer>
+    <a href="/">Drift</a>
+    <span class="sep">&middot;</span>
+    <span>No tracking. No metrics. Drift wants to be used less.</span>
+  </footer>
+
+  <script>
+    function copyShare() {
+      const text = "Drift — an app designed to be used less.\nA pause between impulse and action.\nhttps://drift.blog";
+      navigator.clipboard.writeText(text).then(function() {
+        const btn = document.querySelector('.copy-btn[onclick]');
+        const original = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(function() {
+          btn.textContent = original;
+        }, 1500);
+      });
+    }
+  </script>
+</body>
+</html>

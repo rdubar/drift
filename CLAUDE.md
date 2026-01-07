@@ -6,7 +6,7 @@ An anti-engagement app that restores boredom and cognitive friction.
 
 ## Quick Reference
 
-- **Manifesto**: `freedom-requires-friction-manifesto.md` - the philosophical foundation
+- **Manifesto**: `docs/freedom-requires-friction-manifesto.md` - the philosophical foundation
 - **Dev Guide**: `AGENTS.md` - detailed development principles and guidelines
 
 ## Core Commands
