@@ -10,7 +10,18 @@
       "Bash(git push)",
       "Bash(dig:*)",
       "Bash(nslookup:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(nc:*)",
+      "WebSearch",
+      "WebFetch(domain:www.creativescotland.com)",
+      "WebFetch(domain:www.apple.com)",
+      "Bash(go build:*)",
+      "Bash(./drift:*)",
+      "Bash(xxd:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:drift.blog)",
+      "Bash(git reset:*)"
     ]
   }
 }

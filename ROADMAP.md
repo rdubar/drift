@@ -174,6 +174,66 @@ No build step needed if we stay vanilla JS.
 
 ---
 
+## Open Source Publishing Plan
+
+The current repo (`drift`) is a private working space containing everything: website, CLI, proposals, infrastructure docs. When ready, public tools will be published to separate repos under a `drifttools` GitHub organisation.
+
+### Repository Structure
+
+```
+Private (current repo):
+  drift/                    # This repo - private working space
+  ├── cli/                  # CLI source (copied to public when ready)
+  ├── docs/                 # Proposals, infrastructure (stays private)
+  ├── index.html, css/, js/ # Website (maybe public later)
+  └── ...
+
+Public (future):
+  github.com/drifttools/drift-cli      # Go CLI
+  github.com/drifttools/drift-ios      # Swift iOS app
+  github.com/drifttools/drift-ext      # Browser extension
+  github.com/drifttools/drift-portal   # Website (if/when open sourced)
+```
+
+### Why Separate Repos
+
+- Go tooling works best when repo = module (`go install github.com/drifttools/drift-cli@latest`)
+- iOS and CLI have different build/release processes
+- Users only clone what they need
+- Clean install commands
+
+### Publishing the CLI (when ready)
+
+1. Create `drifttools` organisation on GitHub
+2. Create `drift-cli` repo
+3. Copy contents of `cli/` to new repo
+4. Update `go.mod` module path:
+   ```
+   module github.com/drifttools/drift-cli
+   ```
+5. Add LICENSE (MIT or Apache 2.0)
+6. Push and tag first release (`v0.1.0`)
+7. Users can then install with:
+   ```bash
+   go install github.com/drifttools/drift-cli@latest
+   ```
+
+### Publishing the iOS App (when ready)
+
+1. Create `drift-ios` repo
+2. Copy Swift project to new repo
+3. Add LICENSE
+4. TestFlight / App Store distribution separate from repo
+
+### Website (maybe later)
+
+If we decide to open source the website:
+1. Create `drift-portal` repo
+2. Update Cloudflare Pages to point to new repo
+3. Keep proposals/infrastructure docs private or in separate private repo
+
+---
+
 ## Decision Points
 
 ### Now
