@@ -21,7 +21,8 @@
       "Bash(xxd:*)",
       "Bash(python3:*)",
       "WebFetch(domain:drift.blog)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(convert:*)"
     ]
   }
 }
