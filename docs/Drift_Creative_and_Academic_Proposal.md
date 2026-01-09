@@ -4,181 +4,210 @@
 **Duration:** 9 months
 **Budget:** £20,000
 **Applicant:** Roger Dubar
-**Location:** Scotland
+**Location:** Glasgow, Scotland
 
 ---
 
 ## The Problem
 
-I noticed it a decade ago in a hotel room in Barcelona. Down time, supposedly. I couldn't sit with my own thoughts for more than a few seconds before reaching for my phone. A comment from a friend. Ragebait. A cat video. Silence starting to feel uncomfortable.
+Every idle moment is now filled. Waiting rooms, queues, the space between tasks—all colonised by feeds designed to capture and hold attention. We open apps without deciding to. Scroll without wanting to. Close them and open them again seconds later. The reflex runs deeper than choice.
 
-Every idle moment is now filled. Waiting rooms, queues, the space between tasks—all colonised by feeds. You open an app without deciding to. Scroll without wanting to. Close it and open it again seconds later. When did that become normal? Do we even notice the reflex anymore?
+This matters because boredom is not empty time. It is the cognitive space where unexpected thoughts surface—connections that do not emerge under constant stimulation. When that space disappears, a particular kind of thinking disappears with it.
 
-We already know this. Entire teams have devoted their working lives to shaping feeds that keep us looking. It's their job. What's ours?
+The attention economy has been widely documented and criticised. What remains scarce is practice-based work that responds not through commentary, but through artefacts that embody an alternative.
 
-This matters because boredom isn't just empty time. It's where unexpected thoughts surface—connections that don't arrive under stimulation. What happens if we never let that happen? What kind of thinking gets crowded out?
-
-One day while working intensely, I took time to sit. My mind went to a conversation I'd had about the end of civilisations. The Bronze Age Collapse. What gets lost people lose sense of themselves and system shock after system shock removes any sense of what matters.
-
-I sat with it. Then I got distracted. Then the idea for Drift came.
-
-Not a program. Not a fix. Not a lecture.
-
-Just a commentary on where we are, and a small artefact in its own right.
+Drift is that response.
 
 ---
 
 ## What Drift Is
 
-Drift is software, writing, and public intervention that together ask: **what if software refused to optimise?** What would that feel like in the hand? In the day?
+Drift is software, writing, and public intervention that together ask: **what if software refused to optimise?**
 
-The project already exists in rough form. The website drift.blog is live with a manifesto and early writing. This proposal funds the next step: build the tools, document the practice, take it into the world.
+The project exists in early form. The website drift.blog is live, hosting a manifesto and initial writing. This proposal funds the next phase: building functional tools, documenting the practice through sustained writing, and taking the work into public spaces through workshops and academic dialogue.
 
 ### The Software
 
-Three tools, each minimal, each designed to disappear:
+Three tools, each minimal, each designed to be eventually unnecessary:
 
 **Command-line tool** (Mac/Windows/Linux)
-A single binary, no dependencies. Type `drift` and wait. Nothing happens except time passing. Built for people who live in terminals. No configuration, no blocklists, no decisions about what's allowed. Just a pause. *This tool can be built immediately—it's the seed from which everything else grows.*
+A single binary with no dependencies. The user types `drift` and waits. Nothing happens except time passing. No configuration, no blocklists, no decisions about permitted behaviour. Simply a pause between impulse and action.
 
 **Browser extension** (Chrome/Firefox)
-A button that creates a pause. Click it when you notice yourself reaching for distraction—or set it to introduce a brief delay on every new tab. A blank screen, a few seconds of nothing. No judgment about where you're going. Just a gap between impulse and action.
+A button that introduces delay. Click it when reaching for distraction, or configure it to insert a brief pause before each new tab opens. A blank screen. A few seconds of nothing. A gap where choice can occur.
 
 **iOS app**
-A blank screen you open to breathe. No accounts, no streaks, no data collection. The app has no interest in your continued use. You don't block anything—you just make space.
+A blank screen. No accounts, no streaks, no data collection. The app has no interest in continued use. It creates space, nothing more.
 
-All open source. No analytics. No judgment. Success is when you uninstall it. Do we need all three? The CLI is the seed; if it doesn't work, the rest needs rethinking.
+All tools will be open source, with no analytics or tracking. Success is measured by eventual disuse and by qualitative feedback from participants and readers.
 
 ### The Writing
 
-Short pieces (800–1200 words), published at drift.blog as they emerge. Roughly monthly, but some months there might be nothing. That's fine. If there's no real question, there's no essay.
+A series of essays (800–1200 words each), published at drift.blog throughout the project period. The writing will address:
 
-The territory, roughly:
-- **Boredom**: what it actually feels like now, why we avoid it, the difference between restorative emptiness and the anxious kind that scrolling produces
-- **Dopamine engineering**: how feeds work—variable rewards, infinite scroll, notification interrupts, personalisation as adversarial design
-- **Practice**: field notes from withdrawal, why digital wellness apps reproduce the problem, what it's like to build software that wants to be used less
+- **Boredom**: its phenomenology, why we avoid it, the difference between restorative emptiness and the anxious vacancy that scrolling produces
+- **Dopamine engineering**: how contemporary feeds function—variable reward schedules, infinite scroll, notification architecture, personalisation as adversarial design
+- **Practice**: field notes from digital withdrawal, analysis of why "digital wellness" tools reproduce the problems they claim to solve, reflections on building software designed for its own obsolescence
 
-Some of this I've already drafted. Some will emerge from running Drift Sessions or conversations with people who try the tools. I'm not committing to a content calendar—that would be ironic. The writing happens when it has something to say.
+Some material is already drafted. Additional writing will emerge from Drift Sessions and dialogue with participants and academics.
 
 ### Physical Objects
 
-**The Zine**
-A small printed object collecting the sharpest pieces. Anti-digital artefact about digital life. Given away at events, sent to those who ask. Something you can hold.
+**Zine**
+A printed collection of the sharpest essays. An anti-digital artefact about digital life, distributed at events and on request.
 
 **Limited objects**
-Simple items carrying the project's language: *drift*, *wait*, *space*. T-shirts, pins, patches. Not merchandise—artefacts. Made in small runs, given away or sold at cost. Physical reminders that exist outside screens.
+T-shirts, pins, and patches carrying the project's vocabulary: *drift*, *wait*, *space*. Produced in small runs, given away or sold at cost. Physical reminders that exist outside screens.
 
 ---
 
-## Engagement: Scotland First, Then Outward
-
-Drift begins in Scotland. If the work doesn't land here, it doesn't go anywhere. Should it travel beyond that? We'll see.
+## Engagement Plan
 
 ### Drift Sessions
 
-Small workshops (6–12 people) where participants experience collective boredom:
+Small workshops (6–12 participants) offering structured experience of collective boredom:
 
-- No phones, no agenda, no facilitation beyond the initial frame
-- 10-20 minutes of nothing, then conversation
-- Document what emerges (with consent)
-- Run 4–6 sessions across Scotland over the project period
+- No phones permitted; no agenda beyond the initial frame
+- 10–20 minutes of silence, followed by a lightly framed conversation
+- Sessions documented with participant consent
+- 4–6 sessions delivered across Scotland during the project period
 
-Not talks *about* Drift. Drift *as* intervention. What happens when a room agrees to do nothing?
+These are not talks about Drift. They are Drift as intervention—creating the conditions the project describes. Documentation will be light-touch (brief notes or anonymised summaries), and only with consent.
 
-### Scottish Academic Engagement
+### Academic Engagement
 
-Possible Scottish institutions (if they want the conversation):
+Drift addresses questions actively researched at several Scottish institutions and will seek dialogue through targeted outreach. Initial contact will focus on Glasgow and Edinburgh given the applicant's location.
 
-- **University of Glasgow** (Digital Culture)
-- **Glasgow School of Art** (Interaction Design, Critical Design)
-- **University of Edinburgh** (HCI, Design Informatics, Philosophy of Technology)
-- **Abertay University** (Games Studies)
+- **University of Glasgow** — Digital Culture programme
+- **Glasgow School of Art** — Interaction Design, Critical Design
+- **University of Edinburgh** — HCI, Design Informatics, Philosophy of Technology
+- **Abertay University** — Games Studies, engagement mechanics
 
-These are not cold pitches. The goal is dialogue, critique, and documentation—not endorsement. If the fit isn't there, I won't force it. A no is still useful information.
+The project seeks dialogue, critique, and documentation through presentations and studio visits at 2–3 institutions during the project period, subject to interest and availability.
 
-**Rough Timeline:**
+### Timeline
 
-- **Months 1–3**: Build the tools (CLI first, then browser extension, then iOS). Start writing. Make contact with institutions—likely Glasgow and Edinburgh first, since I'm based here.
-- **Months 4–6**: Run the first Drift Sessions. Present at one or two universities if invitations materialise. Keep writing.
-- **Months 7–9**: More sessions if the format works. Assemble the zine. Document what happened.
-
-I'm not going to pretend I know exactly when each piece will land. The timeline is a rough shape, not a Gantt chart.
+| Phase | Period | Activities |
+|-------|--------|------------|
+| Development | Months 1–3 | Build CLI tool and browser extension; begin iOS development; publish first essays; initiate academic contacts |
+| Engagement | Months 4–6 | Run first Drift Sessions; present at 1–2 universities if invited; continue writing; release iOS beta |
+| Documentation | Months 7–9 | Run remaining sessions; finalise and print zine; publish remaining essays; compile project documentation |
 
 ### Beyond Scotland
 
-If Drift gains traction, natural next steps include:
+If the project demonstrates impact, natural extensions include:
 
-**UK:** Goldsmiths (critical media studies), University of the Arts London (speculative technology)
+- **UK**: Goldsmiths (critical media studies), University of the Arts London
+- **Europe**: Aarhus University (slow technology research), Royal College of Art
+- **International**: Open source tools and published writing will be globally accessible
 
-**Europe:** Aarhus University (world-leading work on slow technology—Drift speaks their language), Royal College of Art (design as argument)
+---
 
-**International:** Possibly SXSW Interactive. I went twice before (Austin, 2014 and 2015, with Scottish Enterprise supporting an earlier startup) and came back unsettled. It's cool, corporate. The world centre of engagement farming for our own good. I bet they'd love Drift, then ignore it.
+## Evidence of Readiness
 
-### Intellectual Context
+- drift.blog is live with a manifesto and early writing
+- Early CLI prototype work underway; initial scope confirmed as a single binary with no dependencies
+- Initial outreach list prepared; first contacts will be Glasgow and Edinburgh
 
-I'm not inventing this critique. Byung-Chul Han gave me language for what I was feeling. James Bridle shaped how I think about making as argument. There are others. The point isn't lineage; it's that these questions are live, and I'd like to have the conversation.
+## Risks and Mitigations
+
+- **iOS review delays**: release CLI and browser extension first; iOS beta can run via TestFlight while review proceeds
+- **Workshop uptake**: keep sessions small, partner with existing venues, and allow cancellations without compromising project outputs
+- **Time compression**: prioritise CLI + writing; defer non‑essential physical objects if needed to protect core outputs
 
 ---
 
 ## Why Now
 
-Two things feel different now. Or maybe I'm just paying closer attention.
+Two developments make this work timely.
 
-The feeds have gotten better at their job. Not better for us—better at keeping us. AI-driven personalisation means they're no longer just showing what's popular; they're learning what I specifically can't resist. That asymmetry feels new, or at least newly sharp.
+**AI-driven personalisation has matured.** Feeds are no longer merely algorithmic—they are adversarial, trained to maximise time-on-site against user intentions. The gap between platform capability and individual resistance is now structural, not just behavioural.
 
-And the supposed solutions don't work. "Digital wellness" apps are the problem—gamified, notification-heavy, designed to keep us engaged with our own self-improvement. Screen Time dashboards to make us feel guilty. Focus apps that send reminders to focus. The whole category feels like a trap.
-
-So what does refusal look like in practice? Is there room for a tool that does less? Drift is my attempt to find out.
+**Existing interventions have stalled.** "Digital wellness" has become another engagement vertical. Screen time dashboards, focus applications, and productivity tools reproduce the logic they claim to resist—gamified, notification-driven, designed for continued use. Drift proposes a different approach: friction without persuasion.
 
 ---
 
-## Why This Applicant
+## About the Applicant
 
-Why me? Because I needed it.
+**Roger Dubar** is a Glasgow-based technologist, writer, and former solicitor with over twenty years' experience across creative industries and technology. His current practice combines software development with writing and critical inquiry.
 
-I was building Rosh, a complex creative software system that required holding a lot of architectural decisions in my head simultaneously over many months. The kind of work where you stare at a wall for twenty minutes and that's productive, because something is resolving beneath the surface.
+**Background:**
+- Diploma in Legal Practice, Law Society of Scotland
+- BSc Computing and IT, Open University (Distinction, 2024)
+- Sole Legal Counsel, GMTV (ITV Breakfast)
+- Founder of Zapcoder (creative technology startup)
 
-I kept losing that state to Twitter. Not even reading anything important—just the act of checking, the tiny dopamine hit of refresh, and suddenly the thread I'd been holding was gone. After one particularly frustrating afternoon where I'd lost the same thought three times, I deleted the apps and stayed off for months.
+**Previous Funding:**
+- **Creative Scotland Innovation Fund** (October 2013): £75,000
+- **Scottish EDGE Award** (December 2013)
 
-What surprised me wasn't that I got more done on Rosh (I did). It was what happened in the gaps. Waiting for the kettle, sitting on the bus, lying awake at 6am—these became spaces where thoughts arrived unbidden. Not always useful thoughts. But a kind of thinking I'd forgotten was possible.
+**Published Writing:**
+- Articles in The Huffington Post on technology, online behaviour, and cultural discourse
 
-Drift is the documentation of that withdrawal. The tools are an attempt to recreate the conditions without requiring the same cold-turkey discipline. If a tool can make space for me, can it do the same for anyone else?
+**Technical Skills:**
+- Professional software development (Python, Go, Swift, TypeScript)
+- Full-stack web development (Django, modern JavaScript frameworks)
 
-Background: 20+ years across creative technologies—law, television production, managing a software startup (the SXSW thing mentioned earlier), now professional software development. I've built engagement-driven products. I've experienced their costs. This project is what walking away looks like.
+**Current Practice:**
+Drift emerged from necessity during development of [Rosh](https://rosh.cloud), a complex creative software system for shared 3D worlds, requiring sustained concentration over many months. To protect the cognitive conditions that work required, stepping away from social media became essential—not as ideology, but as practical strategy. Both projects benefited. Rosh gained the sustained attention it required; Drift emerged as documentation of what that withdrawal revealed.
+
+This applicant has built engagement-driven products, experienced their cognitive costs, and is now positioned to build the opposite.
 
 ---
 
 ## Creative Scotland Funding Criteria
 
-*This section addresses the six funding criteria outlined in Creative Scotland's [Open Fund for Individuals guidance](https://www.creativescotland.com/funding/funding-programmes/open-funding/open-fund-for-individuals).*
+*This section addresses the six criteria outlined in Creative Scotland's [Open Fund for Individuals guidance](https://www.creativescotland.com/funding/funding-programmes/open-funding/open-fund-for-individuals).*
 
 ### 1. Quality and Ambition
 
-The ambition isn't scale. It's precision: tools that work well enough to actually use, writing sharp enough to make someone pause, interventions that stick. Quality here means restraint—every feature not added is deliberate.
+Drift combines functional software development with critically engaged writing and public intervention. The ambition is precision rather than scale: tools polished enough for genuine use, writing sharp enough to shift perspective, interventions structured enough to produce meaningful dialogue.
 
-I've been working in creative technology for 20+ years. The website is already live. This isn't speculative; I'm extending something I've already started.
+The applicant brings 20+ years of professional experience in creative technology, previous Creative Scotland funding, and existing work already live at drift.blog.
 
 ### 2. Engagement
 
-Drift Sessions (4–6 workshops across Scotland), talks at universities if they'll have me, open source tools anyone can use, essays at drift.blog, a zine you can hold. Not trying to reach everyone. Trying to reach people who might actually care.
+The project engages audiences through multiple complementary channels:
+
+- **Drift Sessions**: 4–6 participatory workshops across Scotland
+- **Academic dialogue**: Presentations at 2–3 Scottish universities
+- **Open source tools**: Free software available to anyone
+- **Public writing**: Essays accessible to general readers
+- **Physical objects**: Zines and artefacts reaching audiences beyond digital spaces
+
+The project prioritises depth over breadth—meaningful engagement with smaller groups rather than superficial reach.
 
 ### 3. Equalities, Diversity and Inclusion
 
-Everything free. No subscriptions, no data harvesting. Tools simple enough that there's nothing to learn. Drift Sessions scheduled across Scotland, not just Glasgow and Edinburgh.
+Drift addresses digital equity through its core design:
 
-The attention economy hits hardest on people with less power to resist—precarious workers checking phones between shifts, young people whose social lives are platform-mediated, anyone whose circumstances make disconnection feel impossible. Drift offers tools without judgment. Accessible venues, accessible materials.
+- **Economic accessibility**: All tools free and open source; no subscriptions, no premium tiers, no data harvesting
+- **Technical accessibility**: Tools designed for simplicity with no learning curve
+- **Geographic reach**: Sessions scheduled across Scotland, not concentrated in Glasgow/Edinburgh
+- **Accessible delivery**: Sessions held in accessible venues; materials produced to accessibility standards
+
+The attention economy disproportionately affects those with less power to resist—precarious workers, young people whose social lives are platform-mediated, anyone whose circumstances make disconnection feel impossible. Drift offers tools without judgment.
 
 ### 4. Environmental Sustainability
 
-Small software, no servers, no cloud. The CLI tool will be under 5MB. No user accounts means no databases humming away somewhere. Zines printed locally on recycled stock, small runs to avoid waste. Travel by train.
+The project embodies reduction through design:
+
+- **Minimal software**: Small binaries, no cloud infrastructure, no continuously running servers
+- **Local-first architecture**: No user accounts means no databases, no server farms, no ongoing energy consumption
+- **Physical production**: Zines printed locally in Scotland on recycled stock; merchandise in small runs to avoid waste
+- **Travel**: Primarily by train within Scotland and the UK
 
 ### 5. Fair Work
 
-Solo project. I'm paying myself £250/day for 50 days over 9 months—professional rate, well above Real Living Wage. Anyone else I bring in (zine design, venue help) gets at least Real Living Wage, specified upfront. No unpaid work, no exploitative arrangements.
+This is a solo project with the applicant as primary worker. The budget is calculated at £250/day (50 days over 9 months), exceeding the Real Living Wage and reflecting professional rates for creative technology work.
 
-### 6. International (Optional)
+Any collaborators engaged during the project (designers, venue staff) will be paid at minimum the Real Living Wage, with rates specified in advance. No unpaid work; no exploitative arrangements.
 
-Maybe. Aarhus does serious work on slow technology; the tools and writing will be available to anyone with an internet connection. But I'm not planning around international reach. Scotland first. The rest follows if it earns it.
+### 6. International
+
+The project has clear international potential. Aarhus University's slow technology research group represents a natural academic partner; the Royal College of Art's critical design programme addresses similar questions. Open source tools and published writing will be globally accessible.
+
+International activity is not the primary goal but a natural extension if the Scottish foundation proves successful.
 
 ---
 
@@ -186,13 +215,13 @@ Maybe. Aarhus does serious work on slow technology; the tools and writing will b
 
 | Output | Specification |
 |--------|---------------|
-| Website | drift.blog (already live, expanded during project) |
+| Website | drift.blog (already live; expanded during project) |
 | CLI tool | Go, cross-platform single binary |
 | Browser extension | Chrome/Firefox, TypeScript, open source |
 | iOS app | Swift, minimal, TestFlight or App Store |
 | Written pieces | ~10 essays (~1000 words each), published at drift.blog |
-| Printed zine | Small run, distributed at events and on request |
-| Physical objects | Limited run t-shirts/items as artefacts |
+| Printed zine | 200 copies, distributed at events and on request |
+| Physical objects | Limited run t-shirts/items |
 | Drift Sessions | 4–6 workshops in Scotland, documented |
 | Academic engagement | Presentations/dialogues at 2–3 institutions |
 | Source code | All repositories public, permissive licence |
@@ -209,37 +238,38 @@ All outputs freely available. No commercial exploitation.
 
 | Item | Rate | Quantity | Total |
 |------|------|----------|-------|
-| Research, development, writing (applicant) | £250/day | 50 days | £12,500 |
+| Research, development, writing | £250/day | 50 days | £12,500 |
 
-50 days over 9 months = approximately 1.4 days/week, reflecting part-time commitment alongside other work.
+50 days over 9 months represents approximately 1.4 days/week, reflecting part-time commitment alongside other work.
 
 ### Equipment
 
 | Item | Specification | Cost |
 |------|---------------|------|
-| MacBook Air 13" M4 | 24GB RAM, 2TB SSD, dedicated development machine | £1,900 |
-| Apple Developer Program | Annual membership for iOS App Store distribution | £79 |
-| **Equipment subtotal** | | **£1,979** |
+| MacBook Air 13" M4 | 24GB RAM, 2TB SSD | £1,900 |
+| Apple Developer Program | Annual membership for App Store distribution | £79 |
+| **Subtotal** | | **£1,979** |
 
-The MacBook Air is essential for iOS development (requires macOS) and provides a dedicated, portable machine for project work separate from employment hardware. 2TB storage ensures capacity for Xcode, simulators, and project archives without external drives.
+The MacBook Air is essential for iOS development (requires macOS) and provides a dedicated machine for project work separate from employment hardware.
 
 ### Travel, Venues, Events
 
 | Item | Calculation | Cost |
 |------|-------------|------|
 | Travel within Scotland | 6 return trips × £100 avg (train) | £600 |
-| Venue hire for Drift Sessions | 6 sessions × £150 avg (accessible venues) | £900 |
+| Accommodation | 4 nights × £80 avg (budget hotels) | £320 |
+| Venue hire | 6 sessions × £150 avg (accessible venues) | £900 |
 | Travel to UK institutions | 2 trips × £150 | £300 |
 | Event materials, refreshments | 6 sessions × £50 | £300 |
-| **Travel/venues subtotal** | | **£2,100** |
+| **Subtotal** | | **£2,420** |
 
 ### Production
 
 | Item | Calculation | Cost |
 |------|-------------|------|
 | Zine printing | 200 copies × £3.50 (local printer, recycled stock) | £700 |
-| Physical objects (t-shirts, pins) | Small run, sold at cost or given away | £400 |
-| **Production subtotal** | | **£1,100** |
+| Physical objects | Small run, sold at cost or given away | £400 |
+| **Subtotal** | | **£1,100** |
 
 ### AI Tools
 
@@ -247,25 +277,25 @@ The MacBook Air is essential for iOS development (requires macOS) and provides a
 |------|-------------|------|
 | Claude Pro subscription | £18/month × 9 months | £162 |
 | ChatGPT Plus subscription | £18/month × 9 months | £162 |
-| Other AI tools (Cursor, etc.) | Allowance for emerging tools | £76 |
-| **AI tools subtotal** | | **£400** |
+| Other AI tools | Allowance for emerging tools | £76 |
+| **Subtotal** | | **£400** |
 
-I use AI tools for grunt work—scaffolding code, formatting, catching typos, synthesising research I've already read. It frees time for the work that needs me: thinking through what Drift should be, writing sentences that mean what I want them to mean. The irony isn't lost on me.
+AI tools are used for development scaffolding, research synthesis, and editorial support, freeing time for the substantive creative and critical work.
 
 ### Other Costs
 
 | Item | Notes | Cost |
 |------|-------|------|
 | Domain renewal | drift.blog, 2 years | £50 |
-| Hosting | Cloudflare Pages (free), email hosting | £100 |
+| Hosting | Cloudflare Pages, email hosting | £100 |
 | Software/services | Development tools, testing services | £150 |
-| **Other subtotal** | | **£300** |
+| **Subtotal** | | **£300** |
 
 ### Contingency
 
 | Item | Calculation | Cost |
 |------|-------------|------|
-| Contingency | ~9% of total (per CS guidance: 5–10%) | £1,621 |
+| Contingency | ~6.5% of total (per CS guidance: 5–10%) | £1,301 |
 
 ### Budget Summary
 
@@ -273,34 +303,46 @@ I use AI tools for grunt work—scaffolding code, formatting, catching typos, sy
 |----------|--------|
 | Creative/research time | £12,500 |
 | Equipment | £1,979 |
-| Travel, venues, events | £2,100 |
+| Travel, venues, events | £2,420 |
 | Production | £1,100 |
 | AI tools | £400 |
 | Other costs | £300 |
-| Contingency (~9%) | £1,621 |
+| Contingency | £1,301 |
 | **Total** | **£20,000** |
 
-Equipment represents 9.9% of total budget (well under 50% threshold).
+Equipment represents 9.9% of total budget (under 50% threshold).
 
 ---
 
-## What Success Looks Like
+## Anticipated Outcomes
 
-Honestly? If the tools work and a few people use them. If some of the writing gets read. If the Drift Sessions produce conversations I couldn't have predicted. That would be enough.
+**Immediate:**
+- Functional software tools released publicly
+- Body of critical writing addressing attention, boredom, and design
+- 4–6 documented public workshops (with consent)
+- Academic presentations and dialogue where possible
 
-The more interesting success would be if someone tells me they stopped using the app because they don't need it anymore. That they've rebuilt the capacity for boredom on their own. That would mean it worked.
+**Longer-term:**
+- Contribution to discourse on ethical technology design in Scotland and beyond
+- Model for software that resists engagement optimisation
+- A documented practice-based approach others can adapt
 
-I'm not trying to build something that scales. I'm trying to build something that helps, even if only a little, even if only for a while.
+**Success indicators:**
+- Qualitative reports that the tools created a pause when it was needed
+- Writing read and discussed in relevant circles
+- Workshop participants describe a changed relationship with attention
+- Academic interest leading to further dialogue or collaboration
+- Eventually: users no longer needing the tools because the habits persist
 
 ---
 
 ## Fit with Creative Scotland
 
-*See [Creative Scotland Funding Criteria](#creative-scotland-funding-criteria) section above for detailed responses to all six assessment criteria.*
+This project is practice-led research in digital arts. It engages critically with contemporary culture—specifically the attention economy—and delivers public benefit without commercial framing. It is Scottish-based, with international potential if the work earns wider reach.
 
-This project is practice-led research in digital arts. Does it count? I think so. It engages critically with contemporary culture (specifically the attention economy) and has public benefit without commercial framing. It's Scottish-based, with international potential if the work earns it.
+Drift asks for time to build something that should not exist according to market logic: software that does not want to be used, writing about the value of boredom, interventions designed to make themselves unnecessary. The intent is modest in scale but clear in purpose.
 
-What I'm asking for is time. Time to build something small that probably shouldn't exist according to market logic—software that doesn't want to be used, writing about boredom, interventions designed to disappear. I want to see what happens when I actually make it.
+The applicant has previously delivered Creative Scotland-funded work successfully and brings the technical, creative, and critical capacity to complete this project.
 
 ---
 
@@ -309,3 +351,10 @@ What I'm asking for is time. Time to build something small that probably shouldn
 - [Open Fund for Individuals – Creative Scotland](https://www.creativescotland.com/funding/funding-programmes/open-funding/open-fund-for-individuals)
 - [Open Fund Application Guidance (PDF)](https://www.creativescotland.com/binaries/content/assets/creative-scotland/funding/open-funding/open-fund-for-individuals/cs-open-fund-for-individuals-october2024-d2-final.pdf)
 - [Fair Work Funding Criteria (PDF)](https://www.creativescotland.com/binaries/content/assets/creative-scotland/resources-and-publications/applicant-and-recipient-materials/funding-criteria/5-fair-work-fund-june-2024_final.pdf)
+
+---
+
+**Appendix: Supporting Materials**
+
+- [drift.blog](https://drift.blog) — Live website with manifesto and early writing
+- [github.com/rdubar/drift](https://github.com/rdubar/drift) — Project repository (open source)
