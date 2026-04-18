@@ -2,7 +2,7 @@
 
 An anti-engagement app that restores boredom and cognitive friction.
 
-**[drift.blog](https://drift.blog)**
+Live at **[drift.blog](https://drift.blog)**
 
 ## What is Drift?
 
@@ -24,6 +24,20 @@ That's it.
 Drift exists because modern software optimizes for engagement at the cost of autonomy. Every pause gets filled. Every impulse gets a shortcut. The gap between wanting and doing shrinks to nothing.
 
 Drift restores that gap. Read the [manifesto](https://drift.blog/manifesto) for more.
+
+### Not Another Digital Wellness Product
+
+You've seen the others. Apps that block apps. Devices you tap to lock your phone. Focus timers that track your progress. All claiming to reduce screen time while creating new things to check, configure, and optimize.
+
+Drift is different:
+- No tracking, no statistics, no progress bars
+- No modes to configure, no apps to select, no settings to manage
+- No community to join, no streaks to maintain, no metrics to improve
+- No business model, no data collection, no servers at all
+
+Other products want to be part of your routine. Drift wants to be forgotten.
+
+If you eventually uninstall this because you don't need it anymore, it worked.
 
 ## Technical
 
@@ -60,4 +74,4 @@ MIT License - see [LICENSE](LICENSE)
 
 ## Author
 
-Roger Dubar: [rdubar](https://github.com/rdubar)
+Roger Dubar — [github.com/rdubar](https://github.com/rdubar)
